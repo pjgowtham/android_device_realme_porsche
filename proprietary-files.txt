@@ -19,9 +19,6 @@ odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
 odm/lib/rfsa/adsp/libQnnHtpSkel.so
 odm/lib/rfsa/adsp/libSuperRawPost_skel.so
 odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
-odm/lib/rfsa/adsp/libaiboost_skel.so
-odm/lib/rfsa/adsp/libaiboost_skel_v65.so
-odm/lib/rfsa/adsp/libaiboost_skel_v66.so
 odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so
 odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
@@ -29,8 +26,6 @@ odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21617.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21617.so
-odm/lib/rfsa/adsp/libc++.so.1
-odm/lib/rfsa/adsp/libc++abi.so.1
 odm/lib/rfsa/adsp/libcalculator_domains_skel.so
 odm/lib/rfsa/adsp/libcalculator_skel.so
 odm/lib/rfsa/adsp/libhdr_skel.so
@@ -127,6 +122,7 @@ odm/etc/camera/config/imx766
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/oplus_preview_decision_params.json
 odm/etc/camera/config/ov02b10
 odm/etc/camera/config/ov08d10
 odm/etc/camera/config/video_beauty_default_config
@@ -210,6 +206,7 @@ odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin
 odm/etc/camera/filters_lut/ByW7g4bbf
 odm/etc/camera/filters_lut/ByYo3If
 odm/etc/camera/filters_lut/BycYf7WWz
+odm/etc/camera/filters_lut/Cold.cube.rgb.bin
 odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin
 odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin
 odm/etc/camera/filters_lut/Emerald.cube.rgb.bin
@@ -231,11 +228,13 @@ odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin
 odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/Sy4uLSTgf
 odm/etc/camera/filters_lut/Syt2KeZZf
+odm/etc/camera/filters_lut/Texture-70.cube.rgb.bin
 odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin
 odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin
 odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin
 odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin
 odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin
+odm/etc/camera/filters_lut/White.cube.rgb.bin
 odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin
 odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin
 odm/etc/camera/filters_lut/black_gold.bin
@@ -261,6 +260,8 @@ odm/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin
 odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin
 odm/etc/camera/filters_lut/fuji.cube.rgb.bin
 odm/etc/camera/filters_lut/gourmet.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-beach.cube.rgb.bin
+odm/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin
 odm/etc/camera/filters_lut/interstellar_space.bin
 odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin
 odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin
@@ -354,8 +355,9 @@ odm/etc/camera/micFilter/curve_0.png
 odm/etc/camera/micFilter/green_orange_2.png
 odm/etc/camera/micFilter/yellow_green_1.png
 odm/etc/camera/model/DocDetectV15.xbin
+odm/etc/camera/model/license.lic
 odm/etc/camera/motionblur/model.data
-odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle
+odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e51.bundle
 odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut0
 odm/etc/camera/pf/PerfectColorSet/normal/colorLut1
@@ -519,6 +521,7 @@ odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin
+odm/etc/camera/singleblur/license_release.license
 odm/etc/camera/sticker/material/animoji/data.zip
 odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip
 odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
@@ -557,6 +560,7 @@ odm/etc/camera/fb_default
 odm/etc/camera/fdc_cl.cache
 odm/etc/camera/fwk_config.json
 odm/etc/camera/gasryuv_1.2_wp.model
+odm/etc/camera/license_release_fdc.lic
 odm/etc/camera/model_fdc.data
 odm/etc/camera/mtStereoParams.bin
 odm/etc/camera/mwStereoParams.bin
@@ -645,6 +649,7 @@ odm/lib64/libaps_frame_registration.so
 odm/lib64/libapsdarksight.so
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
+odm/lib64/libapsyuv.so
 odm/lib64/libarcsoft_aicolor_image.so
 odm/lib64/libarcsoft_aicolor_video.so
 odm/lib64/libarcsoft_distortion_correction.so
@@ -681,6 +686,7 @@ odm/lib64/libcom.oplus.calidatacontainer.so
 odm/lib64/libdualcam_image_optical_zoom.so
 odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
+odm/lib64/libexif-jpeg-aps.so
 odm/lib64/libhta.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
@@ -705,10 +711,13 @@ odm/lib64/libtriplecam_image_optical_zoom.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
+odm/lib64/libyuvwrapper.so
 odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
+odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
